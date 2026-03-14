@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Club de Leones</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="{{url('/')}}/plantilla/images/favicon.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{{url('/')}}/plantilla/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{{url('/')}}/plantilla/css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{{url('/')}}/plantilla/css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="{{url('/')}}/plantilla/css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="{{url('/')}}/plantilla/fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="{{url('/')}}/plantilla/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="{{url('/')}}/plantilla/css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="{{url('/')}}/plantilla/css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="{{url('/')}}/plantilla/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body> 
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		
+		@include('menu')
+
+		<div class="img-tit animate-box" data-animate-effect="fadeInLeft" style="background-image: url({{url('/')}}/plantilla/images/cara2.jpg);">
+		<div id="colorlib-main">
+			<div class="colorlib-work">
+				
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							
+							<h2 class="colorlib-heading">Historia del Porro</h2>
+						</div>
+					</div>
+					<!-- Card -->
+					<div class="colorlib-about">
+						<div class="colorlib-narrow-content">
+		
+
+
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+		
+	
+
+
+	<!-- jQuery -->
+	<script src="{{url('/')}}/plantilla/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="{{url('/')}}/plantilla/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="{{url('/')}}/plantilla/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="{{url('/')}}/plantilla/js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="{{url('/')}}/plantilla/js/jquery.flexslider-min.js"></script>
+	<!-- Sticky Kit -->
+	<script src="{{url('/')}}/plantilla/js/sticky-kit.min.js"></script>
+	<!-- Owl carousel -->
+	<script src="{{url('/')}}/plantilla/js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="{{url('/')}}/plantilla/js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="{{url('/')}}/plantilla/js/main.js"></script>
+
+	</body>
+</html>
+
